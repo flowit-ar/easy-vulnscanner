@@ -1,0 +1,19 @@
+# Secretos y configuracion local
+.env
+*.env
+!.env.example
+
+# Datos generados (bases, reportes, salidas crudas de nmap)
+data/
+*.db
+*.db-journal
+raw_*.txt
+report_*.html
+reports/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
